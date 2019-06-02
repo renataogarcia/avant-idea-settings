@@ -1,104 +1,216 @@
-<code_scheme name="Avantek" version="173">
-  <option name="FIELD_NAME_PREFIX" value="m" />
-  <option name="IMPORT_LAYOUT_TABLE">
+<code_scheme name="Avantek" version="174">
+  <option name="OTHER_INDENT_OPTIONS">
     <value>
-      <package name="java" withSubpackages="true" static="false" />
-      <package name="javax" withSubpackages="true" static="false" />
-      <emptyLine />
-      <package name="" withSubpackages="true" static="false" />
-      <emptyLine />
-      <package name="com.avant" withSubpackages="true" static="false" />
-      <package name="avant" withSubpackages="true" static="false" />
-      <emptyLine />
-      <package name="" withSubpackages="true" static="true" />
+      <option name="INDENT_SIZE" value="2"/>
+      <option name="TAB_SIZE" value="2"/>
     </value>
   </option>
-  <option name="HTML_ATTRIBUTE_WRAP" value="4" />
-  <option name="HTML_KEEP_LINE_BREAKS_IN_TEXT" value="false" />
-  <option name="HTML_ALIGN_TEXT" value="true" />
-  <option name="HTML_INLINE_ELEMENTS" value="a,abbr,acronym,b,basefont,bdo,big,cite,cite,code,dfn,em,font,i,img,input,kbd,label,q,s,samp,select,span,strike,strong,sub,sup,textarea,tt,u,var,editable-content" />
-  <option name="HTML_ENFORCE_QUOTES" value="true" />
+  <option name="LINE_SEPARATOR" value="&#xA;" />
+  <option name="FIELD_NAME_PREFIX" value="m"/>
+  <option name="IMPORT_LAYOUT_TABLE">
+    <value>
+      <package name="java" withSubpackages="true" static="false"/>
+      <package name="javax" withSubpackages="true" static="false"/>
+      <emptyLine/>
+      <package name="" withSubpackages="true" static="false"/>
+      <emptyLine/>
+      <package name="com.avant" withSubpackages="true" static="false"/>
+      <package name="avant" withSubpackages="true" static="false"/>
+      <emptyLine/>
+      <package name="" withSubpackages="true" static="true"/>
+    </value>
+  </option>
+  <option name="RIGHT_MARGIN" value="80"/>
+  <option name="HTML_ATTRIBUTE_WRAP" value="4"/>
+  <option name="HTML_KEEP_LINE_BREAKS_IN_TEXT" value="false"/>
+  <option name="HTML_ALIGN_TEXT" value="true"/>
+  <option name="HTML_INLINE_ELEMENTS"
+          value="a,abbr,acronym,b,basefont,bdo,big,cite,cite,code,dfn,em,font,i,img,input,kbd,label,q,s,samp,select,span,strike,strong,sub,sup,textarea,tt,u,var,editable-content"/>
+  <option name="HTML_ENFORCE_QUOTES" value="true"/>
+  <DB2CodeStyleSettings version="2">
+    <option name="USE_GENERIC_STYLE" value="true"/>
+    <option name="KEYWORD_CASE" value="0"/>
+    <option name="SELECT_ALIGN_AS" value="false"/>
+    <option name="WHERE_EL_BOUND" value="2"/>
+  </DB2CodeStyleSettings>
+  <DerbyCodeStyleSettings version="2">
+    <option name="USE_GENERIC_STYLE" value="true"/>
+    <option name="SELECT_ALIGN_AS" value="false"/>
+  </DerbyCodeStyleSettings>
+  <H2CodeStyleSettings version="2">
+    <option name="USE_GENERIC_STYLE" value="true"/>
+  </H2CodeStyleSettings>
+  <HSQLCodeStyleSettings version="2">
+    <option name="USE_GENERIC_STYLE" value="true"/>
+    <option name="KEYWORD_CASE" value="0"/>
+    <option name="SELECT_ALIGN_AS" value="false"/>
+    <option name="WHERE_EL_BOUND" value="2"/>
+  </HSQLCodeStyleSettings>
   <HTMLCodeStyleSettings>
-    <option name="HTML_ATTRIBUTE_WRAP" value="4" />
-    <option name="HTML_KEEP_LINE_BREAKS_IN_TEXT" value="false" />
-    <option name="HTML_ALIGN_TEXT" value="true" />
-    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html,thead,tbody,tfoot" />
-    <option name="HTML_INLINE_ELEMENTS" value="a,abbr,acronym,b,basefont,bdo,big,cite,cite,code,dfn,em,font,i,img,input,kbd,label,q,s,samp,select,span,strike,strong,sub,sup,textarea,tt,u,var,editable-content" />
-    <option name="HTML_ENFORCE_QUOTES" value="true" />
+    <option name="HTML_ATTRIBUTE_WRAP" value="4"/>
+    <option name="HTML_KEEP_LINE_BREAKS_IN_TEXT" value="false"/>
+    <option name="HTML_ALIGN_TEXT" value="true"/>
+    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF"
+            value="html,thead,tbody,tfoot"/>
+    <option name="HTML_INLINE_ELEMENTS"
+            value="a,abbr,acronym,b,basefont,bdo,big,cite,cite,code,dfn,em,font,i,img,input,kbd,label,q,s,samp,select,span,strike,strong,sub,sup,textarea,tt,u,var,editable-content"/>
+    <option name="HTML_ENFORCE_QUOTES" value="true"/>
   </HTMLCodeStyleSettings>
-  <JSCodeStyleSettings>
-    <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
-    <option name="BLACKLIST_IMPORTS" value="rxjs" />
+  <JSCodeStyleSettings version="0">
+    <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false"/>
+    <option name="BLACKLIST_IMPORTS" value="rxjs"/>
   </JSCodeStyleSettings>
+  <JSON>
+    <option name="OBJECT_WRAPPING" value="5"/>
+    <option name="ARRAY_WRAPPING" value="5"/>
+  </JSON>
   <JavaCodeStyleSettings>
-    <option name="FIELD_NAME_PREFIX" value="m" />
-    <option name="ANNOTATION_PARAMETER_WRAP" value="5" />
-    <option name="ALIGN_MULTILINE_ANNOTATION_PARAMETERS" value="true" />
+    <option name="FIELD_NAME_PREFIX" value="m"/>
+    <option name="ANNOTATION_PARAMETER_WRAP" value="5"/>
+    <option name="ALIGN_MULTILINE_ANNOTATION_PARAMETERS" value="true"/>
     <option name="IMPORT_LAYOUT_TABLE">
       <value>
-        <package name="java" withSubpackages="true" static="false" />
-        <package name="javax" withSubpackages="true" static="false" />
-        <emptyLine />
-        <package name="" withSubpackages="true" static="false" />
-        <emptyLine />
-        <package name="com.avant" withSubpackages="true" static="false" />
-        <package name="avant" withSubpackages="true" static="false" />
-        <emptyLine />
-        <package name="" withSubpackages="true" static="true" />
+        <package name="java" withSubpackages="true" static="false"/>
+        <package name="javax" withSubpackages="true" static="false"/>
+        <emptyLine/>
+        <package name="" withSubpackages="true" static="false"/>
+        <emptyLine/>
+        <package name="com.avant" withSubpackages="true"
+                 static="false"/>
+        <package name="avant" withSubpackages="true" static="false"/>
+        <emptyLine/>
+        <package name="" withSubpackages="true" static="true"/>
       </value>
     </option>
+    <option name="JD_ADD_BLANK_AFTER_PARM_COMMENTS" value="true"/>
+    <option name="JD_ADD_BLANK_AFTER_RETURN" value="true"/>
+    <option name="JD_KEEP_INVALID_TAGS" value="false"/>
+    <option name="JD_KEEP_EMPTY_PARAMETER" value="false"/>
+    <option name="JD_KEEP_EMPTY_EXCEPTION" value="false"/>
+    <option name="JD_KEEP_EMPTY_RETURN" value="false"/>
+    <option name="JD_PRESERVE_LINE_FEEDS" value="true" />
+    <option name="JD_PARAM_DESCRIPTION_ON_NEW_LINE" value="true"/>
   </JavaCodeStyleSettings>
+  <MSSQLCodeStyleSettings version="2">
+    <option name="USE_GENERIC_STYLE" value="true"/>
+    <option name="KEYWORD_CASE" value="0"/>
+    <option name="SELECT_ALIGN_AS" value="false"/>
+    <option name="WHERE_EL_BOUND" value="2"/>
+  </MSSQLCodeStyleSettings>
   <MarkdownNavigatorCodeStyleSettings>
-    <option name="RIGHT_MARGIN" value="72" />
+    <option name="RIGHT_MARGIN" value="72"/>
   </MarkdownNavigatorCodeStyleSettings>
-  <TypeScriptCodeStyleSettings>
-    <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
+  <MySQLCodeStyleSettings version="2">
+    <option name="USE_GENERIC_STYLE" value="true"/>
+  </MySQLCodeStyleSettings>
+  <OracleCodeStyleSettings version="2">
+    <option name="USE_GENERIC_STYLE" value="true"/>
+    <option name="KEYWORD_CASE" value="0"/>
+    <option name="SELECT_ALIGN_AS" value="false"/>
+    <option name="WHERE_EL_BOUND" value="2"/>
+  </OracleCodeStyleSettings>
+  <PostgresCodeStyleSettings version="2">
+    <option name="USE_GENERIC_STYLE" value="true"/>
+  </PostgresCodeStyleSettings>
+  <SQLiteCodeStyleSettings version="2">
+    <option name="USE_GENERIC_STYLE" value="true"/>
+    <option name="KEYWORD_CASE" value="0"/>
+    <option name="SELECT_ALIGN_AS" value="false"/>
+    <option name="WHERE_EL_BOUND" value="2"/>
+  </SQLiteCodeStyleSettings>
+  <SqlCodeStyleSettings version="2">
+    <option name="KEYWORD_CASE" value="0"/>
+    <option name="SELECT_ALIGN_AS" value="false"/>
+  </SqlCodeStyleSettings>
+  <SybaseCodeStyleSettings version="2">
+    <option name="USE_GENERIC_STYLE" value="true"/>
+    <option name="KEYWORD_CASE" value="0"/>
+    <option name="SELECT_ALIGN_AS" value="false"/>
+    <option name="WHERE_EL_BOUND" value="2"/>
+  </SybaseCodeStyleSettings>
+  <TypeScriptCodeStyleSettings version="0">
+    <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false"/>
   </TypeScriptCodeStyleSettings>
   <XML>
-    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+    <option name="XML_ATTRIBUTE_WRAP" value="4"/>
+    <option name="XML_KEEP_LINE_BREAKS_IN_TEXT" value="false"/>
+    <option name="XML_KEEP_BLANK_LINES" value="1"/>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true"/>
   </XML>
+  <codeStyleSettings language="DB2">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2"/>
+      <option name="CONTINUATION_INDENT_SIZE" value="4"/>
+      <option name="TAB_SIZE" value="2"/>
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="HSQLDB">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2"/>
+      <option name="CONTINUATION_INDENT_SIZE" value="4"/>
+      <option name="TAB_SIZE" value="2"/>
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="HTML">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2"/>
+      <option name="CONTINUATION_INDENT_SIZE" value="2"/>
+      <option name="TAB_SIZE" value="2"/>
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="JAVA">
-    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
-    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
-    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
-    <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
-    <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
-    <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
-    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
-    <option name="ALIGN_GROUP_FIELD_DECLARATIONS" value="true" />
-    <option name="SPACE_BEFORE_IF_PARENTHESES" value="false" />
-    <option name="SPACE_BEFORE_WHILE_PARENTHESES" value="false" />
-    <option name="SPACE_BEFORE_FOR_PARENTHESES" value="false" />
-    <option name="SPACE_BEFORE_TRY_PARENTHESES" value="false" />
-    <option name="SPACE_BEFORE_CATCH_PARENTHESES" value="false" />
-    <option name="SPACE_BEFORE_SWITCH_PARENTHESES" value="false" />
-    <option name="SPACE_BEFORE_SYNCHRONIZED_PARENTHESES" value="false" />
-    <option name="CALL_PARAMETERS_WRAP" value="5" />
-    <option name="METHOD_PARAMETERS_WRAP" value="5" />
-    <option name="RESOURCE_LIST_WRAP" value="5" />
-    <option name="EXTENDS_LIST_WRAP" value="5" />
-    <option name="THROWS_LIST_WRAP" value="5" />
-    <option name="EXTENDS_KEYWORD_WRAP" value="2" />
-    <option name="THROWS_KEYWORD_WRAP" value="1" />
-    <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
-    <option name="BINARY_OPERATION_WRAP" value="5" />
-    <option name="TERNARY_OPERATION_WRAP" value="5" />
-    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
-    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
-    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
-    <option name="KEEP_SIMPLE_LAMBDAS_IN_ONE_LINE" value="true" />
-    <option name="KEEP_SIMPLE_CLASSES_IN_ONE_LINE" value="true" />
-    <option name="FOR_STATEMENT_WRAP" value="5" />
-    <option name="ARRAY_INITIALIZER_WRAP" value="5" />
-    <option name="ASSERT_STATEMENT_WRAP" value="5" />
-    <option name="ASSERT_STATEMENT_COLON_ON_NEXT_LINE" value="true" />
-    <option name="DOWHILE_BRACE_FORCE" value="3" />
-    <option name="WHILE_BRACE_FORCE" value="3" />
-    <option name="FOR_BRACE_FORCE" value="3" />
-    <option name="WRAP_LONG_LINES" value="true" />
-    <option name="PARAMETER_ANNOTATION_WRAP" value="5" />
-    <option name="VARIABLE_ANNOTATION_WRAP" value="5" />
-    <option name="ENUM_CONSTANTS_WRAP" value="5" />
+    <option name="RIGHT_MARGIN" value="100"/>
+    <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false"/>
+    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1"/>
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1"/>
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0"/>
+    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true"/>
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false"/>
+    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true"/>
+    <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true"/>
+    <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true"/>
+    <option name="ALIGN_MULTILINE_THROWS_LIST" value="true"/>
+    <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true"/>
+    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION"
+            value="true"/>
+    <option name="CALL_PARAMETERS_WRAP" value="5"/>
+    <option name="CALL_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true"/>
+    <option name="CALL_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true"/>
+    <option name="METHOD_PARAMETERS_WRAP" value="5"/>
+    <option name="METHOD_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true"/>
+    <option name="METHOD_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true"/>
+    <option name="RESOURCE_LIST_WRAP" value="5"/>
+    <option name="EXTENDS_LIST_WRAP" value="5"/>
+    <option name="THROWS_LIST_WRAP" value="5"/>
+    <option name="EXTENDS_KEYWORD_WRAP" value="2"/>
+    <option name="THROWS_KEYWORD_WRAP" value="1"/>
+    <option name="METHOD_CALL_CHAIN_WRAP" value="5"/>
+    <option name="WRAP_FIRST_METHOD_IN_CALL_CHAIN" value="true"/>
+    <option name="BINARY_OPERATION_WRAP" value="5"/>
+    <option name="TERNARY_OPERATION_WRAP" value="5"/>
+    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true"/>
+    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true"/>
+    <option name="KEEP_SIMPLE_LAMBDAS_IN_ONE_LINE" value="true"/>
+    <option name="KEEP_SIMPLE_CLASSES_IN_ONE_LINE" value="true"/>
+    <option name="FOR_STATEMENT_WRAP" value="5"/>
+    <option name="FOR_STATEMENT_LPAREN_ON_NEXT_LINE" value="true"/>
+    <option name="FOR_STATEMENT_RPAREN_ON_NEXT_LINE" value="true"/>
+    <option name="ARRAY_INITIALIZER_WRAP" value="5"/>
+    <option name="ASSIGNMENT_WRAP" value="1"/>
+    <option name="ASSERT_STATEMENT_WRAP" value="5"/>
+    <option name="ASSERT_STATEMENT_COLON_ON_NEXT_LINE" value="true"/>
+    <option name="IF_BRACE_FORCE" value="1"/>
+    <option name="DOWHILE_BRACE_FORCE" value="3"/>
+    <option name="WHILE_BRACE_FORCE" value="3"/>
+    <option name="FOR_BRACE_FORCE" value="3"/>
+    <option name="PARAMETER_ANNOTATION_WRAP" value="5"/>
+    <option name="VARIABLE_ANNOTATION_WRAP" value="5"/>
+    <option name="ENUM_CONSTANTS_WRAP" value="2"/>
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2"/>
+      <option name="CONTINUATION_INDENT_SIZE" value="4"/>
+      <option name="TAB_SIZE" value="2"/>
+    </indentOptions>
     <arrangement>
       <groups>
         <group>
@@ -112,66 +224,130 @@
       </groups>
     </arrangement>
   </codeStyleSettings>
-  <codeStyleSettings language="JavaScript">
-    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
-    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
-    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
-    <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
-    <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
-    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
-    <option name="CALL_PARAMETERS_WRAP" value="5" />
-    <option name="METHOD_PARAMETERS_WRAP" value="5" />
-    <option name="EXTENDS_LIST_WRAP" value="5" />
-    <option name="EXTENDS_KEYWORD_WRAP" value="2" />
-    <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
-    <option name="TERNARY_OPERATION_WRAP" value="5" />
-    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
-    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
-    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
-    <option name="FOR_STATEMENT_WRAP" value="5" />
-    <option name="ARRAY_INITIALIZER_WRAP" value="5" />
-    <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
-    <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
-    <option name="WRAP_COMMENTS" value="true" />
-    <option name="IF_BRACE_FORCE" value="3" />
-    <option name="DOWHILE_BRACE_FORCE" value="3" />
-    <option name="WHILE_BRACE_FORCE" value="3" />
-    <option name="FOR_BRACE_FORCE" value="3" />
+  <codeStyleSettings language="JSON">
     <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
-  <codeStyleSettings language="TypeScript">
-    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
-    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
-    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
-    <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
-    <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
-    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
-    <option name="CALL_PARAMETERS_WRAP" value="5" />
-    <option name="METHOD_PARAMETERS_WRAP" value="5" />
-    <option name="EXTENDS_LIST_WRAP" value="5" />
-    <option name="EXTENDS_KEYWORD_WRAP" value="2" />
-    <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
-    <option name="TERNARY_OPERATION_WRAP" value="5" />
-    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
-    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
-    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
-    <option name="FOR_STATEMENT_WRAP" value="5" />
-    <option name="ARRAY_INITIALIZER_WRAP" value="5" />
-    <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
-    <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
-    <option name="WRAP_COMMENTS" value="true" />
-    <option name="IF_BRACE_FORCE" value="3" />
-    <option name="DOWHILE_BRACE_FORCE" value="3" />
-    <option name="WHILE_BRACE_FORCE" value="3" />
-    <option name="FOR_BRACE_FORCE" value="3" />
+  <codeStyleSettings language="JSP">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="JSPX">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4"/>
+      <option name="TAB_SIZE" value="2"/>
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="JavaScript">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1"/>
+    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true"/>
+    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true"/>
+    <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true"/>
+    <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true"/>
+    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION"
+            value="true"/>
+    <option name="CALL_PARAMETERS_WRAP" value="5"/>
+    <option name="METHOD_PARAMETERS_WRAP" value="5"/>
+    <option name="EXTENDS_LIST_WRAP" value="5"/>
+    <option name="EXTENDS_KEYWORD_WRAP" value="2"/>
+    <option name="METHOD_CALL_CHAIN_WRAP" value="5"/>
+    <option name="TERNARY_OPERATION_WRAP" value="5"/>
+    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true"/>
+    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true"/>
+    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true"/>
+    <option name="FOR_STATEMENT_WRAP" value="5"/>
+    <option name="ARRAY_INITIALIZER_WRAP" value="5"/>
+    <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true"/>
+    <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true"/>
+    <option name="WRAP_COMMENTS" value="true"/>
+    <option name="IF_BRACE_FORCE" value="3"/>
+    <option name="DOWHILE_BRACE_FORCE" value="3"/>
+    <option name="WHILE_BRACE_FORCE" value="3"/>
+    <option name="FOR_BRACE_FORCE" value="3"/>
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2"/>
+      <option name="CONTINUATION_INDENT_SIZE" value="2"/>
+      <option name="TAB_SIZE" value="2"/>
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Oracle">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2"/>
+      <option name="CONTINUATION_INDENT_SIZE" value="4"/>
+      <option name="TAB_SIZE" value="2"/>
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="SQL">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2"/>
+      <option name="CONTINUATION_INDENT_SIZE" value="4"/>
+      <option name="TAB_SIZE" value="2"/>
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="SQLite">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2"/>
+      <option name="CONTINUATION_INDENT_SIZE" value="4"/>
+      <option name="TAB_SIZE" value="2"/>
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Sybase">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2"/>
+      <option name="CONTINUATION_INDENT_SIZE" value="4"/>
+      <option name="TAB_SIZE" value="2"/>
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="TSQL">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2"/>
+      <option name="CONTINUATION_INDENT_SIZE" value="4"/>
+      <option name="TAB_SIZE" value="2"/>
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="TypeScript">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1"/>
+    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true"/>
+    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true"/>
+    <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true"/>
+    <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true"/>
+    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION"
+            value="true"/>
+    <option name="CALL_PARAMETERS_WRAP" value="5"/>
+    <option name="METHOD_PARAMETERS_WRAP" value="5"/>
+    <option name="EXTENDS_LIST_WRAP" value="5"/>
+    <option name="EXTENDS_KEYWORD_WRAP" value="2"/>
+    <option name="METHOD_CALL_CHAIN_WRAP" value="5"/>
+    <option name="TERNARY_OPERATION_WRAP" value="5"/>
+    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true"/>
+    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true"/>
+    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true"/>
+    <option name="FOR_STATEMENT_WRAP" value="5"/>
+    <option name="ARRAY_INITIALIZER_WRAP" value="5"/>
+    <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true"/>
+    <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true"/>
+    <option name="WRAP_COMMENTS" value="true"/>
+    <option name="IF_BRACE_FORCE" value="3"/>
+    <option name="DOWHILE_BRACE_FORCE" value="3"/>
+    <option name="WHILE_BRACE_FORCE" value="3"/>
+    <option name="FOR_BRACE_FORCE" value="3"/>
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2"/>
+      <option name="CONTINUATION_INDENT_SIZE" value="2"/>
+      <option name="TAB_SIZE" value="2"/>
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="XML">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2"/>
+      <option name="CONTINUATION_INDENT_SIZE" value="4"/>
+      <option name="TAB_SIZE" value="2"/>
     </indentOptions>
   </codeStyleSettings>
 </code_scheme>
